@@ -346,7 +346,9 @@ def pilih_super():
 									        q = json.load(data)
 									        if 'access_token' in q:
 										        print '\x1b[1;32m[\x1b[1;32mSuccessful\x1b[1;32m]\x1b[1;32m ' + user + ' \x1b[1;32m|\x1b[1;32m ' + pass8
-										        oks.append(user+pass8)
+		
+								        oks.append(user+pass8)
+
 		except:
 			pass
 		
